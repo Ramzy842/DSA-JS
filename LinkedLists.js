@@ -14,11 +14,13 @@ class LinkedList {
   }
   // Insert first node
   insertFirst(data) {
+    if (!data) return;
     this.head = new Node(data, this.head);
     this.size++;
   }
   // Insert last node
   insertLast(data) {
+    if (!data) return;
     const newNode = new Node(data);
     if (!this.head) {
       this.head = newNode;

@@ -1,6 +1,4 @@
-// STACKS
-
-// Array version
+// Array Implementation
 
 class StackArray {
   constructor() {
@@ -23,7 +21,7 @@ class StackArray {
   }
 }
 
-// Linked list version
+// Linked list Implementation
 
 class Node {
   constructor(value, next = null) {
